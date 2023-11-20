@@ -9,15 +9,13 @@ function App() {
   return (
     <div>
       <Header />
-      <main>
-        <About />
-        <Projects />
-        <Contact />
-      </main>
-      <footer>
-        <p>&copy; 2023 내 개인 홈페이지</p>
-      </footer>
-    </div>
+      <About />
+      <Projects />
+      <Contact />
+    <footer>
+      <p>&copy; 2023 내 개인 홈페이지</p>
+    </footer>
+  </div>
   );
 }
 

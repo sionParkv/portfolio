@@ -1,17 +1,11 @@
 import React from 'react';
 import '../assets/Header.scss';
+import { Link } from '@mui/material';
 
 const Header = () => {
   return (
     <header>
-      <h1>내 개인 홈페이지</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">소개</a></li>
-          <li><a href="#projects">프로젝트</a></li>
-          <li><a href="#contact">연락</a></li>
-        </ul>
-      </nav>
+      <Link href="https://github.com/sionParkv">프로젝트</Link>
     </header>
   );
 };
