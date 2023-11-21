@@ -1,9 +1,8 @@
-import React from 'react';
+import React from 'react'
 // import { Provider } from 'react-redux';
 // import Counter from './actions/Counter';
 // import store from './store/store';
-import { Header, About, Projects, Contact } from './components';
-
+import { Header, About, Projects, Contact, Footer } from './components'
 
 function App() {
   return (
@@ -12,16 +11,9 @@ function App() {
       <About />
       <Projects />
       <Contact />
-    <footer>
-      <p>&copy; 2023 내 개인 홈페이지</p>
-    </footer>
-  </div>
-  );
+      <Footer />
+    </div>
+  )
 }
 
-export default App;
-
-
-
-
-
+export default App
